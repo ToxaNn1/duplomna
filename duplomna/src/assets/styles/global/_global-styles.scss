@@ -1,0 +1,24 @@
+
+@layer components{
+  .global-paragraph {
+    @apply text-[24px];
+  }
+  .global-sub-paragraph {
+    @apply text-[18px] ;
+  }
+  .global-sub-text{
+    @apply  text-[20px];
+  }
+}
+
+@layer components{
+  .position-center{
+    @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  }
+  .flex-center{
+    @apply flex justify-center items-center;
+  }
+  .flex-between{
+    @apply flex justify-between items-center;
+  }
+}
